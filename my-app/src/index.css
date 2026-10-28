@@ -54,3 +54,11 @@ a {
 .battleField:last-child {
   margin-left: 94px;
 }
+.game-title {
+  margin: 20px 0 10px 70px;
+  font-size: 48px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}

@@ -34,6 +34,11 @@
 .instructions p {
   line-height: 33px;
 }
+.game-hint {
+  margin-top: 20px;
+  font-size: 23px;
+  text-align: center;
+}
 .priority {
   height: 45px;
   font-size: 25px;

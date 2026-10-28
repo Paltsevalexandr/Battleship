@@ -4,7 +4,7 @@ const Menu = ({children }) => {
 
   return (
     <div className = 'menu'>
-      <h1>Расстановка кораблей</h1>  
+      <h2>Ship placement</h2>  
       {children}
     </div>
   );

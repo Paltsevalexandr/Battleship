@@ -13,7 +13,7 @@ const ControlButtons = ({
           randomShipsPlacement();
           setGameMode('randomPlaycement');
           createAllShips()}}>
-        1. Случайным образом
+        1. Random
       </Link>
       
       <Link to = '/game-field' className = 'placeShipBtn'
@@ -21,7 +21,7 @@ const ControlButtons = ({
           createAllShips();
           setGameMode('playerPlaycement');
         }}>
-        2. Самостоятельно
+        2. Manually
       </Link>
     </>
   );

@@ -6,6 +6,8 @@ import ControlButtons from '../start-game-components/control-buttons';
 
 const StartMenu = ({setGameMode, createAllShips, randomShipsPlacement, history}) => {
    return (
+      <>
+      <h1 className = 'game-title'>Battleship</h1>
       <Menu>
          <ControlButtons 
             setGameMode = {setGameMode}
@@ -13,6 +15,7 @@ const StartMenu = ({setGameMode, createAllShips, randomShipsPlacement, history})
             randomShipsPlacement = {randomShipsPlacement}
             />
       </Menu>
+      </>
    )
 }
 

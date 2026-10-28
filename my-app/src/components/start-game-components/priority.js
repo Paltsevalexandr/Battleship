@@ -4,10 +4,10 @@ const Priority = ({gamer}) => {
 
    return (
       <div className = 'priority'>
-         <p>{`Ходит ${
+         <p>{`Turn: ${
                gamer === 1 
-               ? 'игрок' 
-               : 'компьютер'}`}</p>
+               ? 'player' 
+               : 'computer'}`}</p>
       </div>
    )
 }
